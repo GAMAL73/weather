@@ -1,0 +1,141 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ 
+    
+  
+
+</head>
+<body>
+<div class="home">
+    <div class="container">
+      <div class="row">
+          <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid ">
+              <div>
+                <a class="navbar-brand d-block text-light" href="#"><i class="fa-solid fa-umbrella"></i>Weather</a>
+                <span class="fs-7 text-info">tagline goes here</span>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                  <li class="nav-item text-light">
+                    <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link text-light" href="#">News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Live Cameras</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Photos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <div class="col-md-12 text-center">
+          <div class="d-flex">
+            <input class="form-control me-2 bg-transparent" type="search" placeholder="Search" aria-label="Search" id="input">
+            <button class="btn btn-outline-info" type="submit" id="button">Search</button>
+          </div>
+        </div>
+      </div>
+<div class="d-flex py-4 my-2 justify-content-center align-items-center">
+        <div id="demo" class="col-4">
+            <div class="col-md-12 text-center">
+              <div class="content py-2" >
+                  <div class="tittel-day d-flex justify-content-between align-items-center fs-5 fw-bold border-bottom p-2">
+                    <span>sunday <i class="fa-regular fa-sun"></i></span>
+                    <span>1 may <i class="fa-solid fa-calendar-day"></i></span>
+                  </div>
+                  <div class="information my-5">
+                    <div class=" rounded-2 d-flex w-100 m-auto fs-4 fw-bold justify-content-center align-items-center my-3">
+                      <p class="m-0 p-0 text-info">cairo, egypt</p>
+                      <i class="fa-solid fa-city mx-2"></i>
+                    </div>
+                    <span class="fs-big">29.4°C<i class="fa-solid fa-sun"></i></span>
+                    <span class="d-block fs-5 text-info fw-medium">clear</span>
+                  </div>
+                  <div class="fs-5 my-4 w-100">
+                    <span class="mx-3"><i class="fa-solid fa-wind"></i>18km/h</span>
+                    <span class="mx-3"><i class="fa-solid fa-cloud-sun-rain"></i>20%</span>
+                    <span class="mx-3"><i class="fa-solid fa-meteor"></i>East</span>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-8">
+          <div class="row">
+                        <div class="col-md-6 text-center">
+                          <div class="content py-2 sca">
+                              <div class="tittel-day d-flex justify-content-between align-items-center fs-5 fw-bold border-bottom p-2">
+                                <span class="nextDayName">sunday </span>
+                                <span class="nextDayNum">1 may </span>
+                              </div>
+                              <div class="information my-5">
+                                <span class="fs-big maxTemp">29.4°C</span><i class="fa-solid fa-cloud text-light"></i>
+                                <span class="d-block fs-5 text-danger fw-medium mainTemp"></span>
+                                <span class="d-block fs-5 text-info fw-medium textNextDay">clear</span>
+                              </div>
+                              <div class="fs-6 my-4">
+                                <span class="mx-3"><i class="fa-solid fa-wind"></i>18km/h</span>
+                                <span class="mx-3"><i class="fa-solid fa-cloud-sun-rain"></i>20%</span>
+                                <span class="mx-3"><i class="fa-solid fa-meteor"></i>East</span>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 text-center">
+                          <div class="content py-2">
+                              <div class="tittel-day d-flex justify-content-between align-items-center fs-5 fw-bold border-bottom p-2">
+                                <span class="nextDayName">sunday </span>
+                                <span class="nextDayNum">1 may </span>
+                              </div>
+                              <div class="information my-5">
+                                <span class="fs-big maxTemp">29.4°C </span><i class="fa-solid fa-cloud-moon text-light"></i>
+                                <span class="d-block fs-5 text-danger fw-medium mainTemp"></span>
+                                <span class="d-block fs-5 text-info fw-medium textNextDay">clear</span>
+                              </div>
+                              <div class="fs-6 my-4">
+                                <span class="mx-3"><i class="fa-solid fa-wind"></i>18km/h</span>
+                                <span class="mx-3"><i class="fa-solid fa-cloud-sun-rain"></i>20%</span>
+                                <span class="mx-3"><i class="fa-solid fa-meteor"></i>East</span>
+                              </div>
+                            </div>
+                        </div>
+          </div>
+        </div>
+</div>
+      <div class="row g-xl-1 mt-xl-3 justify-content-center ">
+        <div class="circle-medium me-xl-3 me-1 rounded-circle d-flex justify-content-center align-items-center">
+          <i class="fa-brands fa-facebook fs-4 text-light"></i>
+        </div>
+        <div class="circle-medium mx-xl-3 mx-2 rounded-circle d-flex justify-content-center align-items-center">
+          <i class="fa-brands fa-instagram fs-4 text-light"></i>
+        </div>
+        <div class="circle-medium mx-xl-3 mx-2 rounded-circle d-flex justify-content-center align-items-center">
+          <i class="fa-brands fa-twitter fs-4 text-light"></i>
+        </div>
+        <div class="circle-medium mx-xl-3 mx-2 rounded-circle d-flex justify-content-center align-items-center">
+          <i class="fa-brands fa-linkedin fs-4 text-light"></i>
+        </div>
+      </div>
+      <div class="m-auto w-50 text-center mt-3">
+        <span class="text-info fs-7">Copyright 2025 Company name. Designed by Themezy. All rights reserved</span>
+      </div>
+    </div>
+</div>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
